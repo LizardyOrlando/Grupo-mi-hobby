@@ -7,8 +7,7 @@ for i in range(2,7):
 for i in range(5):
     respuestas[i] =  respuestas[i].replace("*","") 
     diccionario[respuestas[i].split(":")[0]] = respuestas[i].split(":")[1]
-print(diccionario)
-for i in diccionario:
-    print(i)
-for z in diccionario:
-    print(diccionario[z])
+# print(diccionario)
+for x in diccionario:
+    print(f'la palabra clave es:{x} y el valor es :{diccionario[x]}' )
+    
